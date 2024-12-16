@@ -20,7 +20,7 @@ window.onclick = function (event) {
 };
 //Array
 const images = [
-  { title: "Prevención", src: "..//img/vacunas1.jpg", description: "Vacunas", modalText: "-Paquete de vacunación", modalText1: "-Protección contra pulgas y garrapatas"},
+  { title: "Prevención", src: "img/vacunas1.jpg", description: "Vacunas", modalText: "-Paquete de vacunación", modalText1: "-Protección contra pulgas y garrapatas"},
   { title: "Cirugia", src: ".//img/cirugia.jpg", description: "Cirugía suave.", modalText: "-Esterilización", modalText1: "-Castraciones"},
   { title: "Laboratorio", src: ".../img/labo.jpg", description: "Diagnósticos", modalText: "-Análisis de sangre y prueba de orina.", modalText1: "-Examen Fecal"},
   { title: "Odontologia", src: "...///img/mordida.jpg", description: "Limpieza de Dientes", modalText: "-Diagnóstico y corrección de defectos dentales congénitos", modalText1: "-Tratamientos de eliminación de sarro"},
