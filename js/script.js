@@ -33,7 +33,7 @@ function loadPortfolio() {
     item.className = 'portfolio-item';
     item.onclick = () => openModal(image.title, image.src, image.description, image.modalText, image.modalText1);
 
-    const img = document.createElement('img'); //Crea elemento
+    const img = document.createElement('../img'); //Crea elemento
     img.src = image.src;                       //Asigna
     img.alt = image.title;
 
