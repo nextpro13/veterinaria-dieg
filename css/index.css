@@ -1,0 +1,240 @@
+/* Estilo General */
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: #343a40; 
+    color: #ffffff; 
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.header_logo {
+    width: 7rem;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%; 
+}
+
+.nav {
+    display: flex;
+    gap: 20px; 
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: rgb(233, 233, 233); 
+}
+
+.nav-link.active {
+    color: #ff5722; /* Color (Inicio) */
+}
+
+.nav-link:hover {
+    color: rgb(33, 133, 95); 
+}
+
+.nav-icon {
+    margin-left: 5px; 
+}
+
+/* Main Content */
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #343a40;
+    width: 100%;
+    height: 45rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 50%;
+    height: 20rem;
+}
+
+.title {
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: #05775a;
+    font-weight: lighter;
+}
+
+button {
+    width: 25%;
+    height: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    background: #914b46;
+    border-radius: 10px;
+    border: #8d8d8c;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f5cd67;
+}
+
+.main_image {
+    display: flex;
+    height: 40rem;
+    align-self: center;
+    align-items: center;
+}
+
+.image {
+    height: 30rem;
+    border-radius: 15px;
+}
+
+/* Presentación de Video */
+.presentacion-video {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    background-color: #0e6d55;
+}
+
+/* Nuestros Servicios */
+.nuestros-servicios {
+    display: flex;
+    justify-content: center;
+    padding-inline: 2rem;
+}
+
+.nuestros-servicios_area {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.nuestros-servicios_card {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuestros-servicios_icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.nuestros-servicios_text {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Cotización */
+.cotizacion {
+    background-color: #0e6d55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cotizacion_image {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    padding: 2rem;
+}
+
+.cotizacion_text {
+    padding-left: 5rem;
+    width: 40rem;
+    font-size: large;
+    font-style: italic;
+    color: #000000;
+}
+
+/* Sección de Contacto */
+.contacto {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacto_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #343a40;
+    width: 100%;
+    height: 45rem;
+}
+
+.contacto_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 20rem;
+}
+
+.contacto_button {
+    width: 100%;
+}
+
+/* Pie de Página */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.footer_content {
+    color: #f9f9f9;
+    display: flex;
+}
+
+.social-media_area {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media_icon {
+    width: 2rem;
+    padding-left: 2rem;
+}

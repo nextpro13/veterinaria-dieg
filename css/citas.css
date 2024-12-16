@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(#0c0b0b 0%, #b1a21c 52%, #585154 100%);
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.container {
+  background-color: rgb(128, 123, 123);
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Estilo para la navegación */
+.nav-link {
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+}
+
+.nav-link:hover {
+  color: rgb(33, 133, 95);
+}
+
+.nav-link.active {
+  color: #ff5722;
+}
+
+.lista-citas .cita {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 2rem;
+  padding-bottom: 3rem;
+}
+
+.lista-citas .cita:last-of-type {
+  border-bottom: 0;
+}
+
+.lista-citas .cita p {
+  margin: 0;
+}
+
+.lista-citas .cita button {
+  margin-top: 1rem!important;
+}
+
+.lista-citas .cita span {
+  font-weight: bold;
+}
+
+textarea {
+  height: 200px!important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 6px;
+}
+
+.header_logo {
+  width: 7rem;
+}
+
+header {
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  padding: 2rem;
+}

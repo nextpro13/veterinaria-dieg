@@ -1,0 +1,141 @@
+/* Estilo general para el cuerpo */
+body {
+  font-size: 1.6rem; /* Ajuste de tamaño base de fuente */
+  background-color: #343a40;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo para la cabecera */
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 8px;
+}
+
+.header_logo {
+  width: 7rem;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Estilo para el grid del portafolio */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/* Estilo para los elementos del portafolio */
+.portfolio-item {
+  text-align: center;
+  cursor: pointer;
+  background: hsl(41, 55%, 42%);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #000;
+}
+
+p {
+  color: #ffffff;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: hsl(63, 47%, 43%);
+  text-align: center;
+  padding: 20px;
+}
+
+.modal-content img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Estilo para la navegación */
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+}
+
+.nav-link:hover {
+  color: rgb(33, 133, 95);
+}
+
+.nav-link.active {
+  color: #ff5722;
+}
+
+/* Pie de Página */
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2rem;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.footer_content {
+  color: #f9f9f9;
+  display: flex;
+}
+
+.social-media_area {
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media_icon {
+  width: 2rem;
+  padding-left: 2rem;
+}
+/* Contenedor de los icono */
+.icon-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+/* Estilo para el header del sitio */
+header {
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  padding: 2rem;
+}
